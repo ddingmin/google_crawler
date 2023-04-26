@@ -1,1 +1,10 @@
 # google_crawler
+
+
+## Run method
+*     pip install -r requirements.txt
+*     keywords.txt     파일에 가져올 이미지 차례로 기입
+*     python main.py
+## 기능
+* keywords.txt에 입력된 검색어들의 이미지를 크롤링
+* 검색어별로 폴더를 만들어서 해당 폴더에 이미지가 저장된다.
