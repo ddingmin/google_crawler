@@ -21,9 +21,9 @@ def crawl_google(keywords):
     for keyword in keywords:
         idx = 1
         url = f"https://www.google.co.kr/search?q={keyword}&tbm=isch"
-        img = "img.Q4LuWd"
+        img_selector = "img.Q4LuWd"
         driver.get(url)
-        images = driver.find_elements(By.CSS_SELECTOR, img)
+        images = driver.find_elements(By.CSS_SELECTOR, img_selector)
 
         # 키워드에 맞는 폴더 생성
         if not os.path.exists(keyword):
