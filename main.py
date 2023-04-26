@@ -33,7 +33,7 @@ def crawl_google(keywords):
         for image in images:
             image_src = image.get_attribute('src')
             if not image_src: continue
-            urllib.request.urlretrieve(image_src, f'{keyword}\\{idx}.png')
+            urllib.request.urlretrieve(image_src, f'{keyword}/{idx}.png')
             idx += 1
 
 crawl_google(read_keywords())
