@@ -1,5 +1,5 @@
 # google_crawler
-
+* 입력된 키워드를 구글 이미지 크롤링
 
 ## Run method
 *     pip install -r requirements.txt
